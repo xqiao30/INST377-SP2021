@@ -36,4 +36,13 @@
    height: 100%;
    text-align: center;
 }
-
+.scrollRight{
+    width: 20px;
+    height: 30px;
+    text-align: right;
+}
+.scrollLeft{
+    width: 20px;
+    height: 30px;
+    text-align: left;
+}
