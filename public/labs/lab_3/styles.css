@@ -6,11 +6,34 @@
     width: 100%;
     height : 100%;
  }
- .left{
-     background : gray;
-     box-align: start;
+ .layout1 {
+     position: absolute;
+     width: 100%;
+    height: 100%;
+    text-align: center;
  }
- .right{
-     background : gray;
-     box-align: end;
- }
+ .layout2 {
+    position: absolute;
+    width: 100%;
+   height: 100%;
+   text-align: center;
+}
+.layout3 {
+    position: absolute;
+    width: 100%;
+   height: 100%;
+   text-align: center;
+}
+.layout4 {
+    position: absolute;
+    width: 100%;
+   height: 100%;
+   text-align: center;
+}
+.layout5 {
+    position: absolute;
+    width: 100%;
+   height: 100%;
+   text-align: center;
+}
+
