@@ -2,7 +2,9 @@
  https://javascript.info/introduction-browser-events */
  .main{
     background-color : blue;
-    vertical-align: middle;
+    position: relative;
+    width: 100%;
+    height : 100%;
  }
  .left{
      background : gray;
