@@ -1,11 +1,9 @@
 /* Add some css styles based on the tutorial at javascript.info: introduction to browser events
  https://javascript.info/introduction-browser-events */
- .main{
+ body{
     background-color : blue;
     width : 100%;
     height : 100%;
-    vertical-align : top;
-    text-align : center;
  }
  .center {
     display: block;
