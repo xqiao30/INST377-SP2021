@@ -4,6 +4,6 @@
     background-color : blue;
  }
  .center {
-    display : block;
-    text-align : center;
+    margin-top : 50%;
+    margin-left : 50%;
   }
