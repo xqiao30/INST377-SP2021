@@ -1,24 +1,21 @@
 const images = ['images/onigiri_1.png', 'images/onigiri_2.png', 'images/onigiri_3.png', 'images/onigiri_4.png', 'images/roll_1.png', 'images/roll_2.png', 'images/roll_3.png'];
 let index = 0;
-let the_image = document.getElementById("main-image");
-the_image.src = images[0];
+let shownImage = document.getElementById('main-image');
+shownImage.src = images[0];
 
-function show_image(direction)
+function showImage(direction)
 {
-  if (direction == "left")
-  {
+  if (direction === 'left') {
     index--;
   }
-  else
-  {
+  else {
     index++;
     index %= images.length;
   }
   
-  if (index < 0)
-  {
+  if (index < 0) {
     index = images.length - 1;
   }
   
-  the_image.src = images[index];
+  shownImage.src = images[index];
 }
