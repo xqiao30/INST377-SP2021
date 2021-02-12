@@ -7,42 +7,42 @@
     height : 100%;
  }
  .layout1 {
-     position: absolute;
-     width: 100%;
-    height: 100%;
+     width: 500px;
+    height: 500px;
+    background : image-set("images/ornigiri_1.png", "images/ornigiri_2.png", "images/ornigiri_3.png");
     text-align: center;
  }
  .layout2 {
-    position: absolute;
-    width: 100%;
-   height: 100%;
+    width: 500px;
+   height: 500px;
+   background : image-set("images/ornigiri_2.png", "images/ornigiri_3.png", "images/ornigiri_4.png");
    text-align: center;
 }
 .layout3 {
-    position: absolute;
-    width: 100%;
-   height: 100%;
+    width: 500px;
+   height: 500px;
+   background : image-set("images/ornigiri_3.png", "images/ornigiri_4.png", "images/roll_1.png");
    text-align: center;
 }
 .layout4 {
-    position: absolute;
-    width: 100%;
-   height: 100%;
+    width: 500px;
+   height: 500px;
+   background : image-set("images/ornigiri_4.png", "images/roll_1.png", "images/roll_2.png");
    text-align: center;
 }
 .layout5 {
-    position: absolute;
-    width: 100%;
-   height: 100%;
+    width: 500px;
+   height: 500px;
+   background : image-set("images/roll_1.png", "images/roll_2.png", "images/roll_3.png");
    text-align: center;
 }
 .scrollRight{
-    width: 20px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     text-align: right;
 }
 .scrollLeft{
-    width: 20px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     text-align: left;
 }
