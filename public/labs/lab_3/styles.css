@@ -4,6 +4,5 @@
     background-color : blue;
  }
  .center {
-    margin-top : 25%;
-    margin-left : 50%;
+   margin:auto;
   }
