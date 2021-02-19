@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   let birdLeft = 220
   let birdBottom = 100
-  let gravity  = 2
+  let gravity  = 3
   let isGameOver = false
   let gap = 430
 
@@ -58,8 +58,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         if (
             obstacleLeft > 200 && obstacleLeft < 280 && birdLeft === 220 &&
-            (birdBottom < obstacleBottom + 153) || 
-            (birdBottom > obstacleBottom + gap -200) || 
+            (birdBottom < obstacleBottom + 153 ||
+            birdBottom > obstacleBottom + gap -200) || 
             birdBottom === 0) {
             gameOver()
             clearInterval(timerID)
