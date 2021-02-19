@@ -40,7 +40,7 @@ app.route('/api')
     console.log('data from fetch', json);
     res.json(json);
   })
-  .post(async (req, res) => {
+  .post('/', function (req, res) => {
     console.log('POST request detected');
     console.log('Form data in res.body', req.body);
     console.log('Now send something back to your client');
