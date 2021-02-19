@@ -1,3 +1,7 @@
+head{
+  align-items: center;
+}
+
 body {
   font: normal 18px/1.5 "Fira Sans", "Helvetica Neue", sans-serif;
   background: #034643;
