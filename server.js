@@ -7,6 +7,7 @@ import dotenv from 'dotenv';
 import fetch from 'node-fetch';
 import reload from 'livereload';
 import connectReload from 'connect-livereload';
+import { red } from 'chalk';
 
 dotenv.config();
 
@@ -40,10 +41,11 @@ app.route('/api')
     res.json(json);
   })
   .post(async (req, res) => {
-    console.log('Hello World');
+    console.log('POST request detected');
     console.log('Form data in res.body', req.body);
     console.log('Now send something back to your client');
-    res.json({data: dataToSendToFrontEnd});
+    red.send('Hello World');
+    // res.json({data: dataToSendToFrontEnd});
   });
 
 app.listen(port, async () => {
