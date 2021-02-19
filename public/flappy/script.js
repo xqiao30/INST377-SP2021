@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (e.keyCode === 32) {
       jump()
     }
-}
+  }
 
   function jump() {
     if(birdBottom < 500) birdBottom += 50
